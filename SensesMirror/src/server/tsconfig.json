@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"experimentalDecorators": true,
+		"lib": ["es2020", "dom"],
+		"moduleResolution": "node",
+		"sourceMap": false,
+		"importHelpers": true,
+		"preserveWatchOutput": true,
+		"baseUrl": ".",
+		"rootDir": "src",
+		"resolveJsonModule": true,
+		"module": "commonjs",
+		"types": ["node"],
+		"emitDecoratorMetadata": true,
+		"target": "es2021",
+		"esModuleInterop": true,
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules", "tmp", "dist", "../node_modules", "**/*.spec.ts"]
+  }
